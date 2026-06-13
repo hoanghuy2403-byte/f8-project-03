@@ -433,6 +433,10 @@ a {
     grid-template-columns: repeat(4, 1fr);
 }
 
+.member-item:hover .member-item__thumb {
+    transform: scale(1.1);
+}
+
 .member-item__img-bg {
     border-radius: 6px;
     background: #eaf6ff;
@@ -447,6 +451,7 @@ a {
     border-radius: 6px;
     object-fit: cover;
     object-position: center center;
+    transition: 0.25s;
 }
 
 .member-item__name {
