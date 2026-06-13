@@ -298,7 +298,9 @@ a {
     font-weight: 600;
 }
 
-.service-item__desc {
+.service-item__desc,
+.work-card__desc,
+.work-card__link {
     margin-top: 8px;
     color: #575f66;
     font-size: 1.6rem;
@@ -308,4 +310,57 @@ a {
 
 .service__list {
     margin-bottom: 55px;
+}
+
+/* how-it-works */
+.how-it-works {
+    background: #f6fbff;
+    padding: 100px 0;
+}
+
+.how-it-works .section-desc {
+    width: 468px;
+}
+
+.how-it-works__content {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+
+.work-card {
+    width: 370px;
+    height: 402px;
+    padding: 42px 43px;
+    border-radius: 4px;
+    border: 16px solid #eaf6ff;
+    transition: 0.25s;
+}
+
+.work-card:hover {
+    transform: translateY(-16px);
+    border: 16px solid #2e80ce;
+}
+
+.work-card:hover .work-card__link {
+    color: #2e80ce;
+    font-weight: 400;
+}
+
+.work-card__title {
+    margin-top: 18px;
+    color: #10375c;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.38;
+}
+
+.work-card__desc {
+    margin-top: 28px;
+}
+
+.work-card__link {
+    display: inline-block;
+    margin-top: 18px;
 }
