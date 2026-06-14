@@ -642,3 +642,38 @@ a {
     font-size: 1.4rem;
     font-weight: 400;
 }
+
+/* appointment */
+.appointment {
+    padding: 85px 0;
+}
+
+.appointment__content {
+    padding: 100px 178px;
+}
+
+.appointment__hr {
+    width: 136px;
+    height: 2px;
+    margin-top: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #2e80ce;
+}
+
+.more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.appointment__desc {
+    text-align: center;
+    max-width: 700px;
+}
+
+.appointment__btn {
+    display: inline-block;
+    margin-top: 38px;
+}
